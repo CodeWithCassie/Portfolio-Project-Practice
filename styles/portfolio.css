@@ -1,0 +1,15 @@
+body{
+    background-color: #f1fff2;
+}
+h1 {
+    color: black;
+    font-family:"cabin-condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p {
+color:black;
+font-family: "lexend-deca", sans-serif;
+font-weight: 300;
+font-size:30px;
+}
