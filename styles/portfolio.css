@@ -55,4 +55,22 @@ font-size:30px;
     font-weight: normal;
     font-size: 24px;
 }
-
+.navbar-custom{
+    background-image: url(/styles/green-pastel-leaf.jpg);
+    background-size: 550px;
+}
+.nav-link,.navbar-brand{
+    color: white;
+    background:var(--branding-color);
+    padding: 10px;
+}
+.nav-link{
+    margin: 10px 20px;
+    border: none;
+    border-radius: 15px;
+}
+.intro-page{
+    justify-content: space-evenly;
+    margin: 15px auto;
+    padding: 20px 15px;
+}
