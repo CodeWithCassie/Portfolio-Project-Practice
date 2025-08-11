@@ -93,27 +93,29 @@ font-size:30px;
     .hero {
         padding: 80px 20px;
     }
-    .about-section{
+    .content{
         text-align: center;
         padding: 0;
     }
 }
-.about-section{
+.content-container{
     padding: 110px 20px;
 }
-.about-section-content{
+.content{
     margin: 30px;
 }
-.about-section h1 {
+.content h1 {
     font-size: 52px;
     line-height: 80px;
 }
-.about-section p {
+.content p {
     font-size: 18px;
     font-family: var(--main-font-family);
 }
 .about-img { 
-    height: 540px;
-    width: 325px;
+    height: 500px;
+    width: 300px;
     border-radius: 7px;
+    margin-bottom: 20px;
+    margin-left: 70px;
 }
