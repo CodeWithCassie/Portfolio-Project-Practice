@@ -102,11 +102,18 @@ font-size:30px;
     padding: 110px 20px;
 }
 .content{
+    text-align: center;
+    padding: 0;
     margin: 30px;
 }
 .content h1 {
     font-size: 52px;
     line-height: 80px;
+}
+.content h3{
+    font-size: 24px;
+    font-family: var(--main-font-family);
+    line-height: 2;
 }
 .content p {
     font-size: 18px;
