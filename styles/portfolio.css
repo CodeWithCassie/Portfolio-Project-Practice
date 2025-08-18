@@ -1,12 +1,44 @@
 :root{
 --branding-color:#5aa49e;
+--secondary-branding: white;
 --main-font-family: "cabin-condensed", sans-serif;
 --secondary-font-family:"lexend-deca", sans-serif;
 }
 
 body{
-    background-color: #f1fff2;
+    background-color: honeydew;
 }
+footer{
+    margin: 60px 0;
+}
+
+footer .social-links a {
+    text-align: center;
+    color: var(--branding-color);
+    background: var(--secondary-branding);
+    margin: 0 20px;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    outline: 1px solid teal;
+    transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover{
+    color: var(--secondary-branding);
+    background:var(--branding-color);
+}
+
+footer .work-contact{
+    background: var(--secondary-branding);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer .work-contact p{
+    margin: 0px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: var(--main-font-family);
@@ -17,6 +49,11 @@ h1{
     font-size: 96px;
 }
 
+h4{
+    font-size: 48px;
+}
+
+
 p {
 color:black;
 font-family: var(--secondary-font-family);
@@ -25,7 +62,7 @@ font-size:30px;
 }
 .btn-branding{
     background-color: var(--branding-color);
-    color: white;
+    color: var(--secondary-branding);
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
@@ -61,7 +98,7 @@ font-size:30px;
     margin-bottom: 20px;
 }
 .nav-link,.navbar-brand,.card-button{
-    color: white;
+    color: var(--secondary-branding);
     background:var(--branding-color);
     padding: 10px;
 }
@@ -71,7 +108,7 @@ font-size:30px;
     border-radius: 15px;
 }
 .intro-page{
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 15px auto;
     padding: 20px 15px;
 }
@@ -87,7 +124,7 @@ font-size:30px;
     font-size: 24px;
 }
 .contact-links:hover {
-    color:teal;
+    color:var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -98,6 +135,9 @@ font-size:30px;
     h2 {
         font-size: 44px;
     }
+    h4{
+        font-size: 26px;
+    }
     .hero {
         padding: 80px 20px;
     }
@@ -105,7 +145,6 @@ font-size:30px;
         text-align: center;
         padding: 0;
     }
-}
 .content-container{
     padding: 110px 20px;
 }
@@ -132,4 +171,8 @@ font-size:30px;
     width: 300px;
     border-radius: 7px;
     margin-bottom: 20px;
+}
+footer .work-contact{
+    padding: 30px;
+}
 }
