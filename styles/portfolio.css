@@ -81,6 +81,14 @@ font-size:30px;
 .card-img-top{
     height: 350px;
 }
+.contact-links{
+    text-decoration:none;
+    color: black;
+    font-size: 24px;
+}
+.contact-links:hover {
+    color:teal;
+}
 
 @media (max-width: 900px) {
     h1 {
