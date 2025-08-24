@@ -8,6 +8,9 @@
 body{
     background-color: honeydew;
 }
+.img-fluid{
+    padding: 15px;
+}
 footer{
     margin: 60px 0;
 }
@@ -34,11 +37,6 @@ footer .work-contact{
     border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
-
-footer .work-contact p{
-    margin: 0px;
-}
-
 h1, h2, h3, h4, h5, h6 {
     color: black;
     font-family: var(--main-font-family);
@@ -46,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 h1{
-    font-size: 96px;
+    font-size: 80px;
 }
 
 h4{
@@ -128,25 +126,6 @@ font-size:30px;
 .contact-links:hover {
     color:var(--branding-color);
 }
-
-@media (max-width: 900px) {
-    h1 {
-        font-size: 44px;
-        line-height: 2px;
-    }
-    h2 {
-        font-size: 44px;
-    }
-    h4{
-        font-size: 26px;
-    }
-    .hero {
-        padding: 80px 20px;
-    }
-    .content{
-        text-align: center;
-        padding: 0;
-    }
 .content-container{
     padding: 110px 20px;
 }
@@ -178,4 +157,27 @@ font-size:30px;
 footer .work-contact {
     padding: 30px;
 }
+@media (max-width: 900px) {
+    h1 {
+        font-size: 40px;
+        line-height: 2px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    .hero {
+        padding: 80px 20px;
+    }
+    .content{
+        text-align: center;
+        padding: 0;
+    }
+    .work-contact{
+        padding: 30px;
+        margin: 15px 20px;
+    }
+
 }
